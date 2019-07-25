@@ -2,13 +2,24 @@ $(document).ready(function () {
     var associateName;
     var associateEmail;
     var associateNumber;
+    var associateSite;
     var newAssociateName;
 
     $("button").on("click", function () {
         associateName = $("#firstName").val() + " " + $("#lastName").val();
         associateEmail = $("#email").val();
         associateNumber = $("#number").val();
+        associateSite = $("#website").val();
         newAssociateName = $("#naName").val();
+
+        $("#cardName").text(associateName)
+
+        $("#card").html(
+            `<p> p: ${associateNumber} </p>
+            <p> e:  ${associateEmail} </p>
+            <p> w: ${associateSite} </p>
+            `
+        );
     });
 
     $("#button1").on("click", function () {

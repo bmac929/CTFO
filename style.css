@@ -1,8 +1,8 @@
 #form {
-background-color: blue;
 width: 960px;
 margin: auto;
 padding-left: 10px;
+color: white;
 }
 
 #messageBox {
@@ -10,4 +10,43 @@ padding-left: 10px;
     margin: auto;
     
 
+}
+
+body{
+    background-image: url("https://warnersbest.com/wp-content/uploads/2018/11/cropped-page-back-3.jpg");
+
+    background-size: cover;
+}
+
+#pic{
+    height: 150px;
+    width: 110px;
+    padding-top: 10px;
+}
+
+.media{
+    height: 250px;
+    width: 500px;
+    float: right;
+    margin-top: -350px;
+    border: 10px;
+    background-color: black;
+    background-size: cover;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    background-image: url("https://www.ctfoblog.com/wp-content/uploads/2019/01/01-CTFO-Independant-Associate-Logo.png")
+}
+
+#message{
+    margin: auto;
+    width: 800px;
+}
+
+hr {
+    background-color: white;
+}
+
+#card{
+    font-size: 25px;
 }
