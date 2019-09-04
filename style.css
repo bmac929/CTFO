@@ -1,24 +1,25 @@
 #form {
-width: 960px;
+width: 50%;
 margin: auto;
 padding-left: 10px;
 color: white;
 }
 
-#messageBox {
+/* #messageBox {
     width: 960px;
     margin: auto;
-    
-
+    } */
+h1 {
+    color: white;
 }
 
-body{
+body {
     background-image: url("https://warnersbest.com/wp-content/uploads/2018/11/cropped-page-back-3.jpg");
 
     background-size: cover;
 }
 
-#pic{
+#pic {
     height: 150px;
     width: 110px;
     padding-top: 10px;
@@ -27,10 +28,9 @@ body{
 .media{
     height: 250px;
     width: 500px;
-    float: right;
-    margin-top: -350px;
+    margin: auto;
     border: 10px;
-    background-color: black;
+    background-color: white;
     background-size: cover;
     border-radius: 15px;
     font-size: 20px;
@@ -44,9 +44,45 @@ body{
 }
 
 hr {
-    background-color: white;
+    background-color: black;
 }
 
 #card{
     font-size: 25px;
 }
+
+#associate{
+    float: left;
+}
+
+#newAssociate{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 25px;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 320px) {
+  #message{
+      width: 100%;
+  }
+   #newAssociate{
+       margin-left: 0px;
+   }
+   #form{
+       width: 320px;
+   }
+#messageBox {
+    margin-left: 35px;
+    width: 80%;
+}
+.msgs{
+    margin-left: 35px;
+   
+}
+#button2{
+    margin-left: 35px;
+}
+
+}
+
