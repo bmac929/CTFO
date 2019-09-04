@@ -77,12 +77,13 @@ hr {
     width: 80%;
 }
 .msgs{
-    margin: auto;
-    width: 50%;
+    margin-left: 35px;
+    width: 800%;
    
 }
-#button2{
+#button5{
     margin-left: 35px;
+    width: 25%;
 }
 
 }
