@@ -77,7 +77,8 @@ hr {
     width: 80%;
 }
 .msgs{
-    margin-left: 35px;
+    margin: auto;
+    width: 50%;
    
 }
 #button2{
